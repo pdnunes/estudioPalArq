@@ -1,0 +1,646 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.menu ul li a {
+    transition: color 0.2s;
+    }
+.menu ul li a:hover {
+    color: rgb(211, 216, 221);
+    }
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    grid-area: header;
+}
+
+.conteinter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header header header header"
+        "main main main main main"
+        "footer footer footer footer footer"
+    ;
+}
+
+.main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 2.5rem;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu ul li a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.logo {
+    width: 10rem;
+    height: auto;
+}
+
+.imagenPrincipal {
+    max-width: 100%;
+    height: auto;
+}
+
+.logoTitulo {
+    display: block;
+}
+
+.titulo {
+    color: white;
+    font-size: 0.93rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.articulo p {
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    font-size: 2rem;
+}
+
+.parrafoImg h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
+}
+
+.articulo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: rgb(247,247,247);
+    background: linear-gradient(90deg, rgba(247,247,247,1) 0%, rgba(221,221,228,1) 35%, rgba(59,61,61,1) 100%);   
+padding-top: 3rem;
+}
+
+.parrafoImg {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.articulo img {
+    width: 60%;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+.parrafoImg a {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: auto;
+    margin: 5rem 5rem;
+    font-family: 'Kanit', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.proyectos h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.casas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 80rem;
+}
+
+.casas img {
+    margin: 1rem;
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
+.edificios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 80rem;
+}
+
+.edificios img {
+    margin: 1rem;
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
+.diseno {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 80rem;
+}
+
+.diseno img {
+    margin: 1rem;
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.datos {
+    display: block;
+}
+
+.contacto {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer p {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.redF {
+    color: blue;
+    font-size: 2rem;
+}
+
+.redP {
+    color: red;
+    font-size: 2rem;
+}
+
+.redL {
+    color: lightblue;
+    font-size: 2rem;
+}
+
+.redI {
+    color: red;
+    font-size: 2rem;
+}
+
+.logoFooter {
+    width: 9.5rem;
+    height: auto;
+}
+
+/* PAGINA NOSOTROS */
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: rgb(247,247,247);
+    background: linear-gradient(90deg, rgba(247,247,247,1) 0%, rgba(221,221,228,1) 35%, rgba(59,61,61,1) 100%);   
+
+
+}
+
+.explicacion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.explicacion h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+
+    margin-left: 1rem;
+
+}
+
+.nosotros p {
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nosotros img {
+    width: 100%;
+    height: auto;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* PAGINA CONTACTO */
+
+.contactoPagina {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: rgb(247,247,247);
+    background: linear-gradient(90deg, rgba(247,247,247,1) 0%, rgba(221,221,228,1) 35%, rgba(59,61,61,1) 100%);   
+
+    text-align: left;
+
+}
+
+.formulario {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+informacion h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+
+}
+
+iframe {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.check {
+    display: inline-block;
+}
+
+/* PAGINA PROYECTOS */
+.imagenesproyectos img {
+    transition: transform 0.5s;
+}
+
+.imagenesproyectos img:hover {
+    transform: scale(1.1);
+}
+#tituloPpal {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.proyectosPage {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+
+}
+
+.imagenesproyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "imagen1 imagen2 imagen3"
+    ;
+    gap: 5rem;
+
+}
+
+.imagenn1 {
+    grid-area: imagen1;
+}
+
+.imagen2 {
+    grid-area: imagen2;
+}
+
+.imagen3 {
+    grid-area: imagen3;
+}
+
+.imagenesproyectos img {
+    width: 100%;
+    height: auto;
+}
+
+.menuProy {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 31rem;
+    height: 2.5rem;
+    text-align: initial;
+    align-items: flex-start;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.menuProy li {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0rem;
+
+    text-align: initial;
+}
+
+.menuProy li a {
+    color: white;
+}
+
+#edificiosProy {
+    margin-top: 10rem;
+}
+
+.edificiosSec h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.casasSec p, .edificiosSec p, .disenoSec p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    text-align: justify;
+}
+
+.casasSec h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+
+
+.casasSec h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.disenoSec h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+
+
+.disenoSec h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+section img {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+#casasProy {
+    margin-top: 10rem;
+}
+
+#disenoProy {
+    margin-top: 10rem;
+}
+
+/* PAGINA SERVICIOS */
+
+.servicios h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5rem;
+margin:5rem 1rem 0 1rem;
+
+}
+
+.servicios p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 7rem;
+    text-align: justify;
+}
+
+.direObra {
+    display: flex;
+    flex-direction: row;
+}
+
+.direObra img {
+    width: 50%;
+    height: auto;
+    margin-right: 3rem;
+}
+
+.tituloserv {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tituloserv h1 {
+    width: 50rem;
+    height: auto;
+}
+
+.serviciosBody {
+    background: rgb(247,247,247);
+    background: linear-gradient(90deg, rgba(247,247,247,1) 0%, rgba(221,221,228,1) 35%, rgba(59,61,61,1) 100%);   
+
+}
+/* visualización Tablet */
+@media screen and (max-width: 1024px) {
+
+    .conteinter {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "header header header"
+            "main main main"
+            "footer footer footer"
+        ;
+    }
+
+    .casasSec p, .edificiosSec p, .disenoSec p  {
+        font-size: 1.5rem;
+     margin-right: 0.5rem;
+    }
+    .direObra {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin: 0 2rem;
+    }
+
+    .servicios p {
+        font-family: 'Kanit', sans-serif;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 1.5rem;
+        margin-right: 2rem;
+        text-align: justify;
+    }
+    .direObra img{
+        width: 70%;
+        height: auto;
+    }
+ 
+}
+/* visualización Celular */
+@media screen and (max-width: 768px) {
+.conteinter{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+        ;
+}
+.imagenesproyectos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "imagen1"
+        "imagen2"
+        "imagen3"
+          ;
+          justify-items: center;
+          gap: 1rem;
+
+       
+
+}
+
+.imagen1 {
+    grid-area: imagen1;
+
+    
+}
+
+.imagen2 {
+    grid-area: imagen2;
+}
+
+.imagen3 {
+    grid-area: imagen3;
+}
+
+.imagenesproyectos img {
+    width: 70%;
+    height: auto;
+
+}
+.casasSec p, .edificiosSec p, .disenoSec p  {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.direObra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2rem;
+}
+#tituloPpal {  
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem; 
+
+}
+.direObra h1{
+margin-left: 0;
+font-size: 1.5rem;
+margin-top: 1rem;
+}
+.servicios p {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-right: 0.5rem;
+}
+
+.direObra img {
+    margin-right: 0;
+    margin-left: 0;
+
+}
+}
